@@ -1,0 +1,4 @@
+a,b,c=10,25,15
+
+max_val=a if(a>b and a>c) else (b if b>c else c)
+print("Maximum:",max_val)
