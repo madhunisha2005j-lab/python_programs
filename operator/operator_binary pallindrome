@@ -1,0 +1,8 @@
+num=9
+
+binary=bin(num)[2:]
+
+if binary==binary[::-1]:
+    print("Binary Palindrome")
+else:
+    print("Not Binary Palindrome")
